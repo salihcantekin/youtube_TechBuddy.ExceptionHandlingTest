@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+	  <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+	  <PackageReference Include="TechBuddy.Middlewares.ExceptionHandling" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>
